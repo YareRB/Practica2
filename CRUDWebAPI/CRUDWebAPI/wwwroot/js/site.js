@@ -73,7 +73,7 @@ function updateCancion() {
         titulo: document.getElementById('edit-title').value,
         descripcion: document.getElementById('edit-description').value,
         genero: document.getElementById('edit-genre').value,
-        precio: parseInt(cancionPrice, 10),
+        precio: parseInt(document.getElementById('edit-price').value),
     };
 
     fetch(`${uri}/${cancionId}`, {
