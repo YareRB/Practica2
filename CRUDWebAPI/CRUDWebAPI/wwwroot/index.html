@@ -11,44 +11,43 @@
 </head>
 <body>
     <header>
-        <h3 class="mb-0">
-            <img src="https://i1.wp.com/marketbusinessnews.com/wp-content/uploads/2018/07/blockbusterlogo.png?fit=1280%2C767&ssl=1" />
-        </h3>
+        <h1 class="mb-0 titulo">
+            YOU MUSIC  
+        </h1>
     </header>
     <div class="container">
         <div class="row" style="padding-top: 12px">
             <div class="col-4">
 
-                <div id="addForm">
-                    <h5>Agregar Canción</h5>
+                <div id="addForm" class="form-add">
+                    <h3>Agregar Canción</h3>
+                    <hr />
                     <form action="javascript:void(0);" method="POST" onsubmit="addCancion()">
                         <div class="col">
-                            <h5>Canción</h5>
+                            <h6>Canción</h6>
                             <input type="text" id="add-title" placeholder="Titulo" class="form-control" />
-                            <br />
                             <h6>Descripción</h6>
                             <input type="text" id="add-description" placeholder="Descripción" class="form-control" />
-                            <br />
                             <h6>Genero</h6>
                             <select id="add-genre" class="form-control">
                                 <option value="Latina">Latina</option>
                                 <option value="Pop">Pop</option>
-                                <option value="Hip hop">Hip hop</option>
+                                <option value="Hiphop">Hip hop</option>
                                 <option value="Electronica">Electronica</option>
                                 <option value="Cumbia">Cumbia</option>
                                 <option value="Kpop">Kpop</option>
                                 <option value="Regional">Regional</option>
                             </select>
-                            <br />
                             <h6>Precio</h6>
                             <input type="number" id="add-price" placeholder="Precio" class="form-control" />
+                            <br />
                             <hr />
-                            <input type="submit" value="Agregar" class="form-control" />
+                            <input type="submit" value="Agregar" class="form-control btn-agregar" />
                         </div>
                     </form>
                 </div>
 
-                <div id="editForm">
+                <div id="editForm"  class="form-add">
                     <h3>Editar Canción</h3>
                     <form action="javascript:void(0);" onsubmit="updateCancion()">
                         <div class="col">
@@ -60,19 +59,19 @@
                             <input type="text" id="edit-description" class="form-control" />
                             <br />
                             <h6>Genero</h6>
-                            <select id="add-genre" class="form-control">
+                            <select id="edit-genre" class="form-control">
                                 <option value="Latina">Latina</option>
                                 <option value="Pop">Pop</option>
-                                <option value="Hip hop">Hip hop</option>
+                                <option value="Hiphop">Hip hop</option>
                                 <option value="Electronica">Electronica</option>
                                 <option value="Cumbia">Cumbia</option>
                                 <option value="Kpop">Kpop</option>
                                 <option value="Regional">Regional</option>
+                                <h6>Precio</h6>
+                                <input type="number" id="edit-price" class="form-control" />
                             </select>
                             <br />
-           
-                            <h6>Precio</h6>
-                            <input type="number" id="edit-price" class="form-control" />
+          
                             <hr />
                             <input class="form-control" type="submit" value="Edit" /> <br />
                             <input onclick="closeInput()" class="form-control" type="submit" value="Cancel" />
@@ -90,8 +89,7 @@
                         <th style="width: 30%;">Descripcion</th>
                         <th style="width: 10%;">Genero</th>
                         <th style="width: 10%;">Precio</th>
-                        <th style="width: 5%;"></th>
-                        <th style="width: 5%;"></th>
+                        <th style="width: 10%;"></th>
                     </tr>
                     <tbody id="canciones"></tbody>
                 </table>

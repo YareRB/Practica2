@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\CRUDWebAPI.csproj": {}
+    "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\CRUDWebAPI.csproj": {}
   },
   "projects": {
-    "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\CRUDWebAPI.csproj": {
+    "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\CRUDWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\CRUDWebAPI.csproj",
+        "projectUniqueName": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\CRUDWebAPI.csproj",
         "projectName": "CRUDWebAPI",
-        "projectPath": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\CRUDWebAPI.csproj",
+        "projectPath": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\CRUDWebAPI.csproj",
         "packagesPath": "C:\\Users\\yarer\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\obj\\",
+        "outputPath": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yarer\\AppData\\Roaming\\NuGet\\NuGet.Config",

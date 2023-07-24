@@ -1,5 +1,5 @@
 ﻿const uri = 'api/cancions';
-let movies = [];
+let canciones = [];
 
 function getCanciones() {
     fetch(uri)
@@ -8,7 +8,7 @@ function getCanciones() {
         .catch(err => console.error('unable to get songs', err));
 }
 
-function addMovie() {
+function addCancion() {
     const addTitleTextbox = document.getElementById('add-title');
     const addDescriptionTextbox = document.getElementById('add-description');
     const addGenreTextbox = document.getElementById('add-genre');
@@ -18,8 +18,11 @@ function addMovie() {
         titulo: addTitleTextbox.value.trim(),
         descripcion: addDescriptionTextbox.value.trim(),
         genero: addGenreTextbox.value.trim(),
-        precio: addPriceTextbox.value
+        precio: parseInt(addPriceTextbox.value)
+
     };
+
+    console.log(cancion)
 
     fetch(uri, {
         method: 'POST',
@@ -27,14 +30,14 @@ function addMovie() {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(movie)
+        body: JSON.stringify(cancion)
     })
         .then(response => response.json())
         .then(() => {
-            getMoviesCanciones();
+            getCanciones();
             addTitleTextbox.value = '';
             addDescriptionTextbox.value = '';
-            addGenreTextbox.value = '';
+            addGenreTextbox.value = ''
             addPriceTextbox.value = 0;
         })
         .catch(error => console.error('unable to add song', error));
@@ -48,10 +51,12 @@ function deleteCancion(id) {
         .catch(error => console.error('unable to delete cancion', error));
 }
 
+
 function displayEditForm(id) {
+
     document.getElementById('addForm').style.display = 'none';
     const cancion = canciones.find(cancion => cancion.id === id);
-
+    console.log(cancion)
     document.getElementById('edit-id').value = cancion.id
     document.getElementById('edit-title').value = cancion.titulo
     document.getElementById('edit-description').value = cancion.descripcion
@@ -62,7 +67,6 @@ function displayEditForm(id) {
 
 function updateCancion() {
     const cancionId = document.getElementById('edit-id').value;
-    constcancionPrice = document.getElementById('edit-price').value;
 
     const cancion = {
         id: parseInt(cancionId, 10),
@@ -109,11 +113,13 @@ function _displayCanciones(data) {
 
     data.forEach(cancion => {
         let editButton = button.cloneNode(false);
-        editButton.innerText = 'Edit';
+        editButton.innerText = 'Editar';
+        editButton.className = "btn-tabla";
         editButton.setAttribute('onclick', `displayEditForm(${cancion.id})`);
 
         let deleteButton = button.cloneNode(false);
-        deleteButton.innerText = 'Delete';
+        deleteButton.innerText = 'Eliminar';
+        deleteButton.className = "btn-tabla";
         deleteButton.setAttribute('onclick', `deleteCancion(${cancion.id})`);
 
         let tr = tBody.insertRow();
@@ -134,7 +140,7 @@ function _displayCanciones(data) {
         let textNodeGenre = document.createTextNode(cancion.genero)
         td4.appendChild(textNodeGenre);
 
-
+        console.log(cancion)
         let td5 = tr.insertCell(4);
         let textNodePrice = document.createTextNode(cancion.precio)
         td5.appendChild(textNodePrice);
@@ -142,8 +148,8 @@ function _displayCanciones(data) {
         let td6 = tr.insertCell(5);
         td6.appendChild(editButton);
 
-        let td7 = tr.insertCell(6);
-        td7.appendChild(deleteButton);
+        td6.appendChild(deleteButton);
+
     });
 
     canciones = data;

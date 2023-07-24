@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\css\\site.css",
+      "Id": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\index.html",
+      "Id": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\js\\site.js",
+      "Id": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {

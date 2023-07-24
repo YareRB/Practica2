@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S5JaEM/iyCqXfYjuuvLHB3TnM2N8bH5uUKkpHJ+ZAUE=",
+  "Hash": "UGfmZae/vCDLy3HCnCj23Kmyq271QLR7Il2fdhmNa2s=",
   "Source": "CRUDWebAPI",
   "BasePath": "_content/CRUDWebAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CRUDWebAPI\\wwwroot",
       "Source": "CRUDWebAPI",
-      "ContentRoot": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\",
       "BasePath": "_content/CRUDWebAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\css\\site.css",
+      "Identity": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\css\\site.css",
       "SourceId": "CRUDWebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\",
       "BasePath": "_content/CRUDWebAPI",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\index.html",
+      "Identity": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\index.html",
       "SourceId": "CRUDWebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\",
       "BasePath": "_content/CRUDWebAPI",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\js\\site.js",
+      "Identity": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\js\\site.js",
       "SourceId": "CRUDWebAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\",
+      "ContentRoot": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\",
       "BasePath": "_content/CRUDWebAPI",
       "RelativePath": "js/site.js",
       "AssetKind": "All",

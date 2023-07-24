@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zesm8rEjGVc6uTVDZIblEh4pNFz4FM3H31Zk21/UskoKbz9mb6XCjJ1oNj9kCUoVOVjHlzNajEpDGkW81YsbWg==",
+  "dgSpecHash": "OuDzwX4TUvKNyurt5/O6TWvfHB0zwOfo23x0VZB8f3zespOhDKjHrFrZ7poj+F46wzCcjaRTJpQKT+m5XKHjzw==",
   "success": true,
-  "projectFilePath": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\CRUDWebAPI.csproj",
+  "projectFilePath": "D:\\ProyectosIECA\\Practica2\\CRUDWebAPI\\CRUDWebAPI\\CRUDWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yarer\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\yarer\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
