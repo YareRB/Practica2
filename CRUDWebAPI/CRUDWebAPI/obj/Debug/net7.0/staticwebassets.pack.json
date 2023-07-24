@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CRUDWebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.CRUDWebAPI.props",
+      "PackagePath": "build\\CRUDWebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CRUDWebAPI.props",
+      "PackagePath": "buildMultiTargeting\\CRUDWebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.CRUDWebAPI.props",
+      "PackagePath": "buildTransitive\\CRUDWebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

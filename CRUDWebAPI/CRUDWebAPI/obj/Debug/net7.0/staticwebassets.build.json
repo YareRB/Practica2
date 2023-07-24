@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "S5JaEM/iyCqXfYjuuvLHB3TnM2N8bH5uUKkpHJ+ZAUE=",
+  "Source": "CRUDWebAPI",
+  "BasePath": "_content/CRUDWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CRUDWebAPI\\wwwroot",
+      "Source": "CRUDWebAPI",
+      "ContentRoot": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\",
+      "BasePath": "_content/CRUDWebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\css\\site.css",
+      "SourceId": "CRUDWebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\",
+      "BasePath": "_content/CRUDWebAPI",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\index.html",
+      "SourceId": "CRUDWebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\",
+      "BasePath": "_content/CRUDWebAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\js\\site.js",
+      "SourceId": "CRUDWebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ProyectosIECA\\PlataformaAlumnosMVC\\CRUDWebAPI\\CRUDWebAPI\\wwwroot\\",
+      "BasePath": "_content/CRUDWebAPI",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}

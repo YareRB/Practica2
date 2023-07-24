@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>You Music |  Yare</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <header>
+        <h3 class="mb-0">
+            <img src="https://i1.wp.com/marketbusinessnews.com/wp-content/uploads/2018/07/blockbusterlogo.png?fit=1280%2C767&ssl=1" />
+        </h3>
+    </header>
+    <div class="container">
+        <div class="row" style="padding-top: 12px">
+            <div class="col-4">
+
+                <div id="addForm">
+                    <h5>Agregar Canción</h5>
+                    <form action="javascript:void(0);" method="POST" onsubmit="addCancion()">
+                        <div class="col">
+                            <h5>Canción</h5>
+                            <input type="text" id="add-title" placeholder="Titulo" class="form-control" />
+                            <br />
+                            <h6>Descripción</h6>
+                            <input type="text" id="add-description" placeholder="Descripción" class="form-control" />
+                            <br />
+                            <h6>Genero</h6>
+                            <select id="add-genre" class="form-control">
+                                <option value="Latina">Latina</option>
+                                <option value="Pop">Pop</option>
+                                <option value="Hip hop">Hip hop</option>
+                                <option value="Electronica">Electronica</option>
+                                <option value="Cumbia">Cumbia</option>
+                                <option value="Kpop">Kpop</option>
+                                <option value="Regional">Regional</option>
+                            </select>
+                            <br />
+                            <h6>Precio</h6>
+                            <input type="number" id="add-price" placeholder="Precio" class="form-control" />
+                            <hr />
+                            <input type="submit" value="Agregar" class="form-control" />
+                        </div>
+                    </form>
+                </div>
+
+                <div id="editForm">
+                    <h3>Editar Canción</h3>
+                    <form action="javascript:void(0);" onsubmit="updateCancion()">
+                        <div class="col">
+                            <input type="hidden" id="edit-id" />
+                            <h5>Canción</h5>
+                            <input type="text" id="edit-title" class="form-control" />
+                            <br />
+                            <h6>Descripción</h6>
+                            <input type="text" id="edit-description" class="form-control" />
+                            <br />
+                            <h6>Genero</h6>
+                            <select id="add-genre" class="form-control">
+                                <option value="Latina">Latina</option>
+                                <option value="Pop">Pop</option>
+                                <option value="Hip hop">Hip hop</option>
+                                <option value="Electronica">Electronica</option>
+                                <option value="Cumbia">Cumbia</option>
+                                <option value="Kpop">Kpop</option>
+                                <option value="Regional">Regional</option>
+                            </select>
+                            <br />
+           
+                            <h6>Precio</h6>
+                            <input type="number" id="edit-price" class="form-control" />
+                            <hr />
+                            <input class="form-control" type="submit" value="Edit" /> <br />
+                            <input onclick="closeInput()" class="form-control" type="submit" value="Cancel" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-8">
+                <p id="counter"></p>
+                <table class="w-100">
+                    <tr>
+                        <th style="width: 5%;">Id</th>
+                        <th style="width: 25%;">Titulo</th>
+                        <th style="width: 30%;">Descripcion</th>
+                        <th style="width: 10%;">Genero</th>
+                        <th style="width: 10%;">Precio</th>
+                        <th style="width: 5%;"></th>
+                        <th style="width: 5%;"></th>
+                    </tr>
+                    <tbody id="canciones"></tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">getCanciones();</script>
+</body>
+</html>
